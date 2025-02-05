@@ -38,6 +38,10 @@
     font-weight: 600;
 }
 
+.nav-links a:hover{
+    color: #E02C6D;
+}
+
 .nav-links a{
     text-decoration: none;
     color: #3A3A3A;
@@ -97,4 +101,69 @@ nav img{
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(to right, white, #DBE1EA, white) 1;
     padding: 35px 0;
+    margin: 100px auto;
+}
+
+/* collection section styles */
+.collections{
+    margin-bottom: 100px;
+}
+
+.collections-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.collection-title{
+    color: #3A3A3A;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collection-box{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+}
+
+.collection-box:hover{
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.collection-box-image{
+    width: 100%;
+}
+
+.collection-box-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #18191F;
+    margin-top: 16px;
+}
+
+.collection-box-price{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0;
+}
+
+.collection-box-description{
+    color: #787885;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.see-more{
+    color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 50px;
+    text-decoration: none;
 }
